@@ -145,6 +145,8 @@ right: 5px;
 
 
 
-@media  and (max-width:500px) {
-
-}
+@media only screen and (min-device-width : 480px) and (max-device-width : 320px) {
+    body {
+      background: #999;
+      width: 100%;}
+    }
