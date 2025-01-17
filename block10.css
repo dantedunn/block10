@@ -1,6 +1,4 @@
 .firstCont {
-
-  
   width: 800px;
   height: 500px;
   display: flex;
@@ -16,7 +14,7 @@
   border: 1px solid;
 }
 #box1 {
- border: rgb(14, 191, 191);
+  border: rgb(14, 191, 191);
   width: 300px;
   background-color: rgb(14, 191, 191);
 }
@@ -37,7 +35,7 @@
   background-color: rgb(14, 191, 191);
 }
 #box5 {
-  border: greenyellow;;
+  border: greenyellow;
   width: 800px;
   height: 10px;
   background-color: greenyellow;
@@ -105,49 +103,39 @@
 }
 
 .triOne {
-  background-color:;
+  background-color: ;
   width: 0;
-	height: 0;
-	border-left: 125px solid transparent;
-	border-right: 125px solid transparent;
-	border-bottom: 250px solid red;
-    right: 500px;
-    z-index: 1;
-    position:fixed;
-    
+  height: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-bottom: 250px solid red;
+  right: 500px;
+  z-index: 1;
+  position: fixed;
 }
 .triTwo {
- 
   width: 0;
   height: 0;
   border-left: 115px solid transparent;
   border-right: 115px solid transparent;
   border-bottom: 230px solid #1e045f;
   right: 700px;
-z-index: 2;
-position: fixed;
-
+  z-index: 2;
+  position: fixed;
 }
 
-
-
-.people{
-position: absolute;
-bottom: 360px;
-display: inline-block;
-margin: -10px;
-left: 20px;
-right: 5px;
-
-
+.people {
+  position: absolute;
+  bottom: 360px;
+  display: inline-block;
+  margin: -10px;
+  left: 20px;
+  right: 5px;
 }
-
-
-
 
 @media screen and () {
-    .firstCont{
+  .firstCont {
     min-width: 480px;
-        min-height: 320px;
-    }
+    min-height: 320px;
+  }
 }
