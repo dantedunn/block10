@@ -1,0 +1,150 @@
+.firstCont {
+
+  
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1px;
+}
+
+.box {
+  margin: 1px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
+}
+#box1 {
+ border: rgb(14, 191, 191);
+  width: 300px;
+  background-color: rgb(14, 191, 191);
+}
+#box2 {
+  border: rgb(14, 191, 191);
+  width: 200px;
+  background-color: rgb(14, 191, 191);
+}
+#box3 {
+  border: rgb(14, 191, 191);
+  width: 294px;
+  background-color: rgb(14, 191, 191);
+}
+#box4 {
+  border: rgb(14, 191, 191);
+  width: 800px;
+  height: 420px;
+  background-color: rgb(14, 191, 191);
+}
+#box5 {
+  border: greenyellow;;
+  width: 800px;
+  height: 10px;
+  background-color: greenyellow;
+}
+
+.circles1 {
+  border-radius: 50%;
+  background-color: rgb(196, 101, 101);
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  top: 75px;
+  left: 50px;
+}
+.circles2 {
+  border-radius: 50%;
+  background-color: yellow;
+  height: 75px;
+  width: 75px;
+  position: fixed;
+  top: 25px;
+  left: 155px;
+}
+.circles3 {
+  border-radius: 50%;
+  background-color: pink;
+  height: 75px;
+  width: 75px;
+  position: fixed;
+  top: 35px;
+}
+.setOneCircles {
+  border: 1px;
+}
+
+.circles4 {
+  border-radius: 50%;
+  background-color: purple;
+  height: 75px;
+  width: 75px;
+  position: relative;
+  top: 95px;
+  right: 25;
+}
+.circles5 {
+  border-radius: 50%;
+  background-color: burlywood;
+  height: 200px;
+  width: 200px;
+  position: fixed;
+  top: 15px;
+  left: 250px;
+}
+.circles6 {
+  border-radius: 50%;
+  background-color: hotpink;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  top: 15px;
+  left: 400px;
+}
+.setTwoCircles {
+  border: 1px;
+}
+
+.triOne {
+  background-color:;
+  width: 0;
+	height: 0;
+	border-left: 125px solid transparent;
+	border-right: 125px solid transparent;
+	border-bottom: 250px solid red;
+    right: 500px;
+    z-index: 1;
+    position:fixed;
+    
+}
+.triTwo {
+ 
+  width: 0;
+  height: 0;
+  border-left: 115px solid transparent;
+  border-right: 115px solid transparent;
+  border-bottom: 230px solid #1e045f;
+  right: 700px;
+z-index: 2;
+position: fixed;
+
+}
+
+
+
+.people{
+position: absolute;
+bottom: 360px;
+display: inline-block;
+margin: -10px;
+left: 20px;
+right: 5px;
+
+
+}
+
+
+
+
+@media  and (max-width:500px) {
+
+}
